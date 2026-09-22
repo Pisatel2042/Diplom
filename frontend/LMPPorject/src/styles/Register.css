@@ -1,0 +1,202 @@
+.register-card{
+
+    max-width:560px;
+
+}
+
+.avatar-upload{
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-bottom:25px;
+
+}
+
+.avatar-circle{
+
+    width:110px;
+
+    height:110px;
+
+    border:2px dashed #e2e4e9;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:42px;
+
+    color:#8a8a9a;
+
+    cursor:pointer;
+
+    overflow:hidden;
+
+    transition:.3s;
+
+}
+
+.avatar-circle:hover{
+
+    border-color:#ff6b6b;
+
+}
+
+.avatar-circle img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+}
+
+.google-btn{
+
+    width:100%;
+
+    margin-top:20px;
+
+    height:52px;
+
+    border:1px solid #e2e4e9;
+
+    border-radius:14px;
+
+    background:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    gap:10px;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.google-btn:hover{
+
+    background:#fafafa;
+
+}
+
+.login-divider{
+
+    display:flex;
+
+    align-items:center;
+
+    margin:25px 0 15px;
+
+}
+
+.login-divider::before,
+
+.login-divider::after{
+
+    content:"";
+
+    flex:1;
+
+    height:1px;
+
+    background:#e2e4e9;
+
+}
+
+.login-divider span{
+
+    margin:0 15px;
+
+    color:#999;
+
+}
+.password-strength{
+
+    width:100%;
+
+    height:8px;
+
+    background:#ececec;
+
+    border-radius:20px;
+
+    margin-top:10px;
+
+    overflow:hidden;
+
+}
+
+.strength-bar{
+
+    height:100%;
+
+    transition:.3s;
+
+}
+
+.strength-1{
+
+    width:20%;
+
+    background:#ef4444;
+
+}
+
+.strength-2{
+
+    width:40%;
+
+    background:#f97316;
+
+}
+
+.strength-3{
+
+    width:60%;
+
+    background:#facc15;
+
+}
+
+.strength-4{
+
+    width:80%;
+
+    background:#84cc16;
+
+}
+
+.strength-5{
+
+    width:100%;
+
+    background:#22c55e;
+
+}
+
+.strength-text{
+
+    margin-top:8px;
+
+    font-size:14px;
+
+    color:#6b6b80;
+
+}

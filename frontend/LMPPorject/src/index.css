@@ -1,0 +1,46 @@
+/* === Tailwind === */
+@import "tailwindcss";
+
+/* === Tailwind content sources === */
+@source "./index.html";
+@source "./src/**/*.{js,ts,jsx,tsx}";
+
+/* === Базовый reset, НЕ конфликтующий с Tailwind === */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* === Базовая структура страницы === */
+html, body, #root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  background: #f8f9fb;
+  color: #2d2d3a;
+  font-family: Inter, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+/* === Градиентный текст === */
+.gradient-text {
+  background: linear-gradient(to right, #6366f1, #8b5cf6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* === Glass эффект === */
+.glass {
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* === Универсальные отступы секций === */
+.section-padding {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes wobble {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-2deg); }
+  75% { transform: rotate(2deg); }
+}
+
+@keyframes blob {
+  0%, 100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; }
+  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; }
+}
+
+.clay-card {
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.clay-card:hover {
+  transform: translateY(-6px) scale(1.02);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+}
+
+.clay-card-flat {
+  background: #ffffff;
+  border-radius: 28px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.clay-btn {
+  background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+  border-radius: 100px;
+  box-shadow: 0 6px 20px rgba(238,90,36,0.3);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.clay-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 10px 30px rgba(238,90,36,0.4);
+}
+
+.float-anim {
+  animation: float 4s ease-in-out infinite;
+}
+.wobble-anim {
+  animation: wobble 3s ease-in-out infinite;
+}
+.blob-anim {
+  animation: blob 8s ease-in-out infinite;
+}
