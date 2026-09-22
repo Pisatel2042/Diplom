@@ -8,4 +8,44 @@
 ![ASP.NET](https://img.shields.io/badge/ASP.NET_Core-9-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-13-239120?style=for-the-badge&logo=csharp&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/SQL_Server-2022-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+ Frontend
+- React 19
+- JavaScript (ES6+)
+- Vite
+- Tailwind CSS 4
+- Chakra UI 3
+- Ark UI
+- React Router
+- Framer Motion
+- GSAP
+- Lenis
+- Lucide React
+- React Icons
+
+ UI & Design
+- Responsive Design
+- Glassmorphism UI
+- Dark / Premium SaaS Design
+- Custom Design System
+- Reusable UI Components
+- CSS Animations & Transitions
+
+ Backend
+- C#
+- ASP.NET Core
+- ASP.NET Web API
+- Entity Framework Core
+- JWT Authentication
+- REST API
+
+ Database
+- Microsoft SQL Server
+- Entity Framework Core
+
+ Development & Deployment
+- Git
+- GitHub
+- Nginx
+- Linux / Ubuntu
+- VPS Deployment
